@@ -1,6 +1,6 @@
 version: '3.7'
 services:
-  mysql:
+  db:
     image: postgres:12.0-alphine
     ports:
       - '5432:5432'
